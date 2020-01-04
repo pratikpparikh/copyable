@@ -81,7 +81,7 @@ class ForeignCopyableLibraryGenerator extends Generator {
     });
 
     if (e == null) {
-      return "";
+      return null;
     }
 
     DartObject metaGenerator = e.computeConstantValue();
@@ -147,7 +147,7 @@ class ForeignCopierLibraryGenerator extends Generator {
     });
 
     if (e == null) {
-      return "";
+      return null;
     }
 
     DartObject metaGenerator = e.computeConstantValue();
